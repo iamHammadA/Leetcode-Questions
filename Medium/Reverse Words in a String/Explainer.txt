@@ -1,0 +1,21 @@
+💡 Algorithm Explanation
+
+🧠 Intuition
+The problem requires reversing the order of words in a given string. 
+The most straightforward idea is to split the sentence into words, 
+reverse the list of words, and then join them back into a single string.
+
+🛠️ Approach
+1. Use split() to break the input string s into a list of words 
+   (automatically ignoring extra spaces).
+2. Reverse the list using slicing [::-1].
+3. Join the reversed words back together with a single space 
+   using " ".join().
+
+⏱️ Complexity
+- Time Complexity: O(n) — where n is the number of characters in 
+  the string, since splitting, reversing, and joining each take 
+  linear time.
+
+- Space Complexity: O(n) — because we create a list of words and 
+  the final output string, both proportional to the input size.
