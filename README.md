@@ -1,5 +1,11 @@
 # 🚀 LeetCode Questions
 
+![Repo Size](https://img.shields.io/github/repo-size/iamHammadA/Leetcode-Questions)
+![Stars](https://img.shields.io/github/stars/iamHammadA/Leetcode-Questions?style=social)
+![Forks](https://img.shields.io/github/forks/iamHammadA/Leetcode-Questions?style=social)
+![Issues](https://img.shields.io/github/issues/iamHammadA/Leetcode-Questions)
+![Visitor Count](https://komarev.com/ghpvc/?username=iamHammadA&repo=Leetcode-Questions&color=blue)
+
 This repository contains my solutions to various LeetCode problems. The goal is to improve problem-solving skills, strengthen understanding of Data Structures & Algorithms, and prepare for technical interviews.
 
 ---
