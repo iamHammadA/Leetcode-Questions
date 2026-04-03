@@ -1,21 +1,22 @@
 💡 Algorithm Explanation
 
 🧠 Intuition
-The problem requires reversing the order of words in a given string. 
-The most straightforward idea is to split the sentence into words, 
-reverse the list of words, and then join them back into a single string.
+The goal is to reverse the order of words in the string while removing extra spaces.
+Instead of manually handling spaces, we can take advantage of Python’s split() function,
+which automatically separates words and ignores multiple spaces.
+
+Once we have a clean list of words, reversing their order and joining them back
+gives the desired result.
 
 🛠️ Approach
-1. Use split() to break the input string s into a list of words 
-   (automatically ignoring extra spaces).
-2. Reverse the list using slicing [::-1].
-3. Join the reversed words back together with a single space 
-   using " ".join().
+1. Use split() to convert the string into a list of words.
+   - This automatically removes leading, trailing, and extra spaces.
+2. Reverse the list of words using slicing [::-1].
+3. Join the reversed words using " ".join() to form the final string.
 
 ⏱️ Complexity
-- Time Complexity: O(n) — where n is the number of characters in 
-  the string, since splitting, reversing, and joining each take 
-  linear time.
+- Time Complexity: O(n)
+  Each operation (split, reverse, join) processes the string once.
 
-- Space Complexity: O(n) — because we create a list of words and 
-  the final output string, both proportional to the input size.
+- Space Complexity: O(n)
+  Extra space is used to store the list of words and the final result.
