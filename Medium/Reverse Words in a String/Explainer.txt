@@ -20,3 +20,7 @@ gives the desired result.
 
 - Space Complexity: O(n)
   Extra space is used to store the list of words and the final result.
+
+💭 Note:
+This solution leverages Python’s built-in functions for simplicity and readability.
+An in-place solution without extra space would require a more complex two-pointer approach.
