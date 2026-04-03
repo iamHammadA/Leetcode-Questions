@@ -1,7 +1,5 @@
 class Solution:
-    def reverseWords(s):
-        a = s.split()
-        a = (a[::-1])
-        return " ".join(a)
-a = Solution.reverseWords("the sky is blue")
-print(a)
+    def reverseWords(self, s: str) -> str::
+        word = s.split()
+        word = (word::-1])
+        return " ".join(word)
